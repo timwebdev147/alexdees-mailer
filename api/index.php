@@ -2,7 +2,7 @@
 
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
-header("Location: https://shenymann.org/#/contact/thank_you");
+// header("Location: https://alexdees-cleaning/thank_you");
 
 
 // Import PHPMailer classes into the global namespace
@@ -21,7 +21,7 @@ $senderName = 'Webber Man Mailer';
 
 // Replace recipient@example.com with a "To" address. If your account
 // is still in the sandbox, this address must be verified.
-$recipient = 'info@shenymann.org';
+$recipient = 'akinsanmidev@gmail.com';
 
 // Replace smtp_username with your Amazon SES SMTP user name.
 $usernameSmtp = 'AKIAZI6CELMNOEXAY4CR';
